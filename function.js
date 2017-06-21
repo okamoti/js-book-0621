@@ -12,3 +12,23 @@ function sum() {
     }
     window.alert(total);
 }
+
+//5-2-1
+function sampleFunction(message = 'test'){ return message };
+
+// list 5.3
+function getInformationScore(score){
+  return score.information;
+}
+
+function getEnglishScore(score){
+  return score.english;
+}
+
+function calculateTotal(scores,getTarget){
+  var total = 0;
+  for (var index = 0; index < scores.length; index++){
+    total += getTarget(scores[index]);
+  }
+  return total;
+}

@@ -17,12 +17,14 @@
 ### Consoleの実行ログ
 
 ```
-【ここに書く】
+list 5.3
+error
 ```
 
 ### Console以外の動き（もしあれば）
 
-【ここに書く（なければ省略可）】
+【VM525:1 Uncaught ReferenceError: examinationScores is not defined
+    at <anonymous>:1:16】
 
 ### 分かったこと
 
@@ -30,7 +32,7 @@
 
 ### 疑問・分からないこと（もしあれば）
 
-【ここに書く（なければ省略可）】
+【examinationScores っていう変数がないのになんで教科書ではそれを使っているのかが分からない】
 
 --------------------------------------
 
